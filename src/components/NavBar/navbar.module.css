@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px 30px;
+  min-height: 40px;
+  width: 100%;
+  max-width: 450px;
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 3;
+  color: #c1bfbf;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 20px 20px 0 0;
+}
+
+.navlink svg {
+  color: #c1bfbf;
+}
+.navlink svg:hover,
+.navlink svg:focus,
+.navlink svg:active {
+  color: #4a59ae
+}
