@@ -1,0 +1,45 @@
+.heading {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-block: 10px;
+}
+
+.users {
+
+}
+
+.user {
+  background-color: #fffefe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-block: 15px;
+  border-radius: 20px;
+}
+
+.userImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px
+}
+
+.imgDiv {
+  height: 30px;
+  width: 30px;
+  background-color: #ff9665;
+  border: 1.5px solid #ff9665;
+  border-radius: 50%;
+}
+.username {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.country {
+  font-size: 12px;
+  font-weight: 400;
+  color: #aeb1b2;
+  line-height: 1;
+}
