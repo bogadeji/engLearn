@@ -1,0 +1,26 @@
+.learningpoint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.circle {
+  height: 21px;
+  width: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid #ff9665;
+}
+
+.orange {
+  color: #ff9665;
+}
+
+.black {
+  color: #000000;
+}
