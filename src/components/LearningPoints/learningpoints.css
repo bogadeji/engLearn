@@ -1,7 +1,7 @@
 .learningpoint {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 4px;
   font-size: 14px;
   font-weight: bolder;

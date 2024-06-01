@@ -1,0 +1,32 @@
+.container {
+  width: 100px;
+  height: 100px;
+  position: relative
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background: conic-gradient(rgba(255, 150, 101, 1) 210deg, rgba(255, 150, 101, 0.2) 0deg);
+  border-radius: 50%;
+}
+
+.progress::before {
+  content: "";
+  position: absolute;
+  height: 85px;
+  width: 85px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.progressscore {
+  z-index: 4;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+}
