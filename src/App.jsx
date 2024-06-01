@@ -2,6 +2,7 @@ import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import Welcome from './components/Welcome/Welcome'
 import LearningGoal from './components/LearningGoal/LearningGoal'
+import Lessons from './components/Lessons/Lessons'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <main className='main'>
         <Welcome />
         <LearningGoal />
+        <Lessons heading="Your lesson" />
       </main>
     </>
   )

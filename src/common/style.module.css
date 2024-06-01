@@ -1,0 +1,58 @@
+/* Circle Progress Bar */
+.container {
+  width: 100px;
+  height: 100px;
+  position: relative
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background: conic-gradient(rgba(255, 150, 101, 1) 270deg, rgba(255, 150, 101, 0.2) 0deg);
+  border-radius: 50%;
+}
+
+.progress::before {
+  content: "";
+  position: absolute;
+  height: 85px;
+  width: 85px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.progressscore {
+  z-index: 4;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/* Straight Progress Bar */
+.progressBarDiv {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.progressbar {
+  height: 7px;
+  width: 100%;
+  background-color: #c8cff1;
+  border-radius: 5px;
+}
+
+.progressIndicator {
+  height: 7px;
+  background-color: #4a59ae;
+  border-radius: 5px;
+}
+.score {
+  font-size: 12px;
+  font-weight: bold;
+}
