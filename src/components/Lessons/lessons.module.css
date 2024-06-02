@@ -2,10 +2,14 @@
 
 .lessonImg {
   width: 120px;
-  height: 90px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fffefe;
   border-radius: 25px;
   margin-block: 3px;
+  text-align: center;
 }
 
 .lessonTitle {

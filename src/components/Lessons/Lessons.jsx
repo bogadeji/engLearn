@@ -6,21 +6,21 @@ function Lessons({heading}) {
 
   const lessons = [
     {
-      imgUrl: "",
+      imgUrl: "./flag.webp",
       duration: 30,
       title: "Speaking 101",
       schedule: "daily",
       completed: 60,
     },
     {
-      imgUrl: "",
+      imgUrl: "./flag.webp",
       duration: 90,
       title: "New words",
       schedule: "daily",
       completed: 50,
     },
     {
-      imgUrl: "",
+      imgUrl: "./flag.webp",
       duration: 30,
       title: "English Grammar",
       schedule: "daily",

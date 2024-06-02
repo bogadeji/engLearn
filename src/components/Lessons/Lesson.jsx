@@ -10,7 +10,7 @@ function Lesson({lesson}) {
       <div>
         <div className={styles.lessonIcon}>
           <div className={styles.lessonImg}>
-          <img src={imgUrl} alt="lesson image" />
+            <img src={imgUrl} alt="lesson image" />
           </div>
           <ProgressBar progress={completed} />
         </div>
