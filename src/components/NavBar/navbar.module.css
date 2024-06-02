@@ -20,8 +20,15 @@
 .navlink svg {
   color: #c1bfbf;
 }
+
+.navlink .is-active > svg {
+  color: #4a59ae;
+  fill: #4a59ae;
+}
+
+
+.navlink svg:active,
 .navlink svg:hover,
-.navlink svg:focus,
-.navlink svg:active {
+.navlink svg:focus {
   color: #4a59ae
 }

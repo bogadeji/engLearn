@@ -11,22 +11,38 @@ function NavBar() {
     <nav className={styles.navbar}>
       <div className={[styles.navlink, styles.home].join(' ')}>
         <NavLink to="/">
-          <HomeIcon />
+          {({ isActive }) => (
+            <>
+              <HomeIcon status={isActive ? 'is-active' : 'inactive'} />
+            </>
+          )}
         </NavLink>
       </div>
       <div className={[styles.navlink, styles.stats].join(' ')}>
-      <NavLink to="analytics">
-        <StatIcon />
-      </NavLink>
+        <NavLink to="analytics">
+            {({ isActive }) => (
+              <>
+                <StatIcon status={isActive ? 'is-active' : 'inactive'} />
+              </>
+            )}
+        </NavLink>
       </div>
       <div className={[styles.navlink, styles.profile].join(' ')}>
-      <NavLink to="/user-profile">
-        <ProfileIcon />
-      </NavLink>
+        <NavLink to="/user-profile">
+            {({ isActive }) => (
+              <>
+                <ProfileIcon status={isActive ? 'is-active' : 'inactive'} />
+              </>
+            )}
+        </NavLink>
       </div>
       <div className={[styles.navlink, styles.settings].join(' ')}>
-      <NavLink to="/settings">
-      <Settingsicon />
+        <NavLink to="/settings">
+          {({ isActive }) => (
+            <>
+              <Settingsicon status={isActive ? 'is-active' : 'inactive'} />
+            </>
+          )}
         </NavLink>
       </div>
     </nav>
