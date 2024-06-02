@@ -9,19 +9,19 @@ function Leaderboard() {
       name: 'Yasmine Lee',
       country: 'Taiwan',
       points: 1250,
-      imgUrl: ''
+      imgUrl: './user1.svg'
     }, 
     {
       name: 'Guy Hawkins',
       country: 'Spain',
       points: 1130,
-      imgUrl: ''
+      imgUrl: './user2.svg'
     },
     {
       name: 'Solape Kosoko',
       country: 'Nigeria',
       points: 1125,
-      imgUrl: ''
+      imgUrl: './user3.svg'
     }
   ]
   return (
@@ -33,9 +33,9 @@ function Leaderboard() {
           {
             users.map((user, index) => (
               <div key={index} className={styles.user}>
-                <div className={styles.userImg}>
-                  <div className={styles.imgDiv}>
-                    <img src="" alt="" />
+                <div className={styles['user-img']}>
+                  <div className={styles['img-div']}>
+                    <img src={user.imgUrl} alt="" />
                   </div>
                   <div>
                     <p className={styles.username}>{user.name}</p>

@@ -18,20 +18,30 @@
   border-radius: 20px;
 }
 
-.userImg {
+.user-img {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px
 }
 
-.imgDiv {
+.img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 30px;
   width: 30px;
   background-color: #ff9665;
   border: 1.5px solid #ff9665;
   border-radius: 50%;
 }
+
+.img-div img {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+}
+
 .username {
   font-size: 14px;
   font-weight: bolder;
