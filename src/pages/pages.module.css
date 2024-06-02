@@ -13,7 +13,7 @@
   margin: 40px 20px;
 }
 
-.cardtext {
+.card-text {
   font-size: 16px;
   font-weight: bolder;
 }
@@ -29,13 +29,13 @@
   margin-block: 20px;
 }
 
-.skillslist {
+.skills-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
-.skillcard {
+.skill-card {
   text-align: center;
   gap: 15px;
   background-color: #fffefe;
@@ -48,14 +48,22 @@
   /* margin-bottom: 10px; */
 }
 
-.skillicon {
+.skill-icon {
   height: 70px;
   width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   background-color: #4a59ae;
   margin: 0 auto 20px;
 }
 
+.skill-icon img {
+  height: 30px;
+  width: 30px;
+  color: #ffffff;
+}
 .skill {
   font-size: 14px;
   font-weight: bold;
