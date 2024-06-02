@@ -29,11 +29,13 @@ function Lessons({heading}) {
   ]
   return (
     <>
-      <h3 className={styles.heading}>{heading}</h3>
       <div className={styles.lessons}>
-        {lessons.map((lesson, index) => (
-          <Lesson lesson={lesson} key={index} />
-        ))}
+        <h3 className={styles.heading}>{heading}</h3>
+        <div className={styles['lessons-list']}>
+          {lessons.map((lesson, index) => (
+            <Lesson lesson={lesson} key={index} />
+          ))}
+        </div>
       </div>
     </>
   )

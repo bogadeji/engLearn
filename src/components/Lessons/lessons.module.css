@@ -11,7 +11,7 @@
 .lessonTitle {
   font-size: 14px;
   font-weight: bold;
-  margin-top: 5px;
+  margin-block: 5px 3px;
 }
 
 .lessonDays {
@@ -26,9 +26,15 @@
   font-size: 18px;
   font-weight: bolder;
 }
+
 .lessons {
+  overflow: hidden;
+}
+
+.lessons-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin-block: 20px;
+  overflow-x: scroll;
 }
