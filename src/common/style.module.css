@@ -56,3 +56,26 @@
   font-size: 12px;
   font-weight: bold;
 }
+
+/* Status Components */
+.status > * {
+  border-radius: 30px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 0;
+  margin: 0 auto;
+  max-width: 100px;
+}
+
+.completed {
+  background-color: #ff9665;
+  color: #fff;
+
+}
+
+.inprogress {
+  background-color: #fff;
+  color: #ff9665;
+  border: 1.5px solid #ff9665;
+}

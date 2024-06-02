@@ -1,9 +1,7 @@
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
-import Welcome from './components/Welcome/Welcome'
-import LearningGoal from './components/LearningGoal/LearningGoal'
-import Lessons from './components/Lessons/Lessons'
-import Leaderboard from './components/LeaderBoard/LeaderBoard'
+import Home from './pages/Home'
+import Analytics from './pages/Analytics'
 
 function App() {
 
@@ -11,10 +9,7 @@ function App() {
     <>
       <NavBar />
       <main className='main'>
-        <Welcome />
-        <LearningGoal />
-        <Lessons heading="Your lesson" />
-        <Leaderboard />
+        <Analytics />
       </main>
     </>
   )

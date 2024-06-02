@@ -1,0 +1,63 @@
+.card {
+  width: 90%;
+  height: 200px;
+  background-color: #fffefe;
+
+}
+
+.cardtext {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* Analytics */
+.skills {
+  margin: 20px auto;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-block: 20px;
+}
+
+.skillslist {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.skillcard {
+  text-align: center;
+  gap: 15px;
+  background-color: #fffefe;
+  padding: 20px;
+  border-radius: 20px;
+  /* height: 200px; */
+}
+
+.skillcard > *:not(:last-child) {
+  /* margin-bottom: 10px; */
+}
+
+.skillicon {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #4a59ae;
+  margin: 0 auto 20px;
+}
+
+.skill {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.status {
+  font-size: 12px;
+  font-weight: 500;
+  color: #aeb1b2;
+  margin-bottom: 15px;
+}
