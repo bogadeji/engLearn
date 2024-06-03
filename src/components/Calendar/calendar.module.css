@@ -1,0 +1,46 @@
+.heading {
+  text-align: center;
+  font-size: 18px;
+}
+
+.week {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.day {
+  width: 30px;
+  height: 30px;
+  background-color: #fffefe;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+.day.selected {
+  content: "&#9745;";
+  color: #ffffff;
+  background-color: #4a59ae;
+}
+
+.day-name {
+  font-size: 14px;
+  font-weight: 600;
+  margin-block: 5px;
+}
+
+.today .day-name {
+  color: #ff9665;
+}
+
+.day.today {
+  color: #ffffff;
+  background-color: #ff9665;
+}

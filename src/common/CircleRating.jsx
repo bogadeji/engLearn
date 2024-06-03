@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './circlerating.module.css'
+import styles from './style.module.css'
 
 function CircleRating({progress = 0}) {
   return(

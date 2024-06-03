@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './pages.module.css';
 import Status from '../common/Status';
+import Calendar from '../components/Calendar/Calendar';
 
 function Analytics() {
 
@@ -28,6 +29,9 @@ function Analytics() {
   ]
   return (
     <>
+    <div className={styles.calendar}>
+      <Calendar />
+    </div>
     <div className={styles.skills}>
       <h3 className={styles.heading}>Skills</h3>
 
