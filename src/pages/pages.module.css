@@ -41,7 +41,9 @@
   background-color: #fffefe;
   padding: 20px;
   border-radius: 20px;
-  /* height: 200px; */
+  box-shadow: 2px 1px 11px -1px rgba(0,0,0,0.1);
+-webkit-box-shadow: 2px 1px 11px -1px rgba(0,0,0,0.1);
+-moz-box-shadow: 2px 1px 11px -1px rgba(0,0,0,0.1);
 }
 
 .skillcard > *:not(:last-child) {
