@@ -56,3 +56,15 @@
   color: #aeb1b2;
   line-height: 1;
 }
+
+.points {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.points-growth {
+  text-align: center;
+  color: rgb(115, 166, 143);
+  font-size: 18px;
+}

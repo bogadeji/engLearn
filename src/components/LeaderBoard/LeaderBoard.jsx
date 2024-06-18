@@ -42,7 +42,8 @@ function Leaderboard() {
                     <p className={styles.country}>{user.country}</p>
                   </div>
                 </div>
-                <div>
+                <div className={styles["points"]}>
+                  <p className={styles["points-growth"]}>&#x1F851;</p>
                   <LearningPoints points={user.points} textcolor="orange" />
                 </div>
               </div>
