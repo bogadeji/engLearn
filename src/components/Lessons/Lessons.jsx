@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './lessons.module.css';
 import Lesson from './Lesson';
+import { ClickRight } from '../../common/clickBtns';
 
 function Lessons({heading}) {
 
@@ -30,7 +31,10 @@ function Lessons({heading}) {
   return (
     <>
       <div className={styles.lessons}>
-        <h3 className={styles.heading}>{heading}</h3>
+        <div className='heading-div'>
+          <h3 className={styles.heading}>{heading}</h3>
+          <ClickRight />
+        </div>
         <div className={styles['lessons-list']}>
           {lessons.map((lesson, index) => (
             <Lesson lesson={lesson} key={index} />

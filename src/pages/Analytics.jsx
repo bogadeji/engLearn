@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './pages.module.css';
 import Status from '../common/Status';
 import Calendar from '../components/Calendar/Calendar';
+import { MoreBtn } from '../common/clickBtns';
 
 function Analytics() {
 
@@ -33,8 +34,10 @@ function Analytics() {
       <Calendar />
     </div>
     <div className={styles.skills}>
-      <h3 className={styles.heading}>Skills</h3>
-
+      <div className='heading-div'>
+        <h3 className={styles.heading}>Skills</h3>
+        <MoreBtn />
+      </div>
       <div className={styles['skills-list']}>
         {skills.map((skill, index) => (
           <div key={index} className={styles['skill-card']}>

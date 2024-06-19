@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './leaderboard.module.css';
 import LearningPoints from '../LearningPoints/LearningPoints';
+import { ClickRight } from '../../common/clickBtns';
 
 function Leaderboard() {
 
@@ -27,8 +28,10 @@ function Leaderboard() {
   return (
     <>
       <div>
-        <h3 className={styles.heading}>Leaderboard</h3>
-
+        <div className="heading-div">
+          <h3 className={styles.heading}>Leaderboard</h3>
+          <ClickRight />
+        </div>
         <div className={styles.users}>
           {
             users.map((user, index) => (

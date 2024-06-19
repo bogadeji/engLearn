@@ -1,0 +1,23 @@
+.clickbtn {
+  color: #4a59ae;
+  font-size: 11px;
+  font-weight: boldergit a;
+  width: 18px;
+  height: 18px;
+}
+
+.border {
+  border: 1.8px solid #4a59ae;
+  border-radius: 4px;
+}
+
+.noborder {
+  border: unset;
+  outline: unset
+}
+
+.morebtn.clickbtn {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+}
