@@ -15,7 +15,7 @@ function Calendar() {
           <p className={styles.day}>2</p>
           <p className={styles['day-name']}>Mon</p>
         </div>
-        <div className={styles.date}>&#10003;
+        <div className={styles.date}>
           <p className={[styles.day, styles.selected].join(' ')}>3</p>
           <p className={styles['day-name']}>Tue</p>
         </div>
